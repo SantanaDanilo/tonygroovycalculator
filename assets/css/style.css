@@ -72,3 +72,41 @@
     font-weight: bold;
     font-size: 18px;
 }
+
+@media screen and (min-width: 320px) {
+    .cabecalho__titulo {
+        display: none;
+    }
+
+    .main__form {
+        flex-direction: column;
+    }
+
+    .main__form--section:last-child {
+        margin-top: 1rem;
+        margin-bottom: 1rem;
+    }
+
+    .main__btn {
+        width: 100%;
+    }
+}
+
+@media screen and (min-width: 769px) {
+    .cabecalho__titulo {
+        display: inherit;
+    }
+
+    .main__form {
+        flex-direction: inherit;
+    }
+
+    .main__form--section:last-child {
+        margin-top: 0;
+        margin-bottom: 0;
+    }
+
+    .main__btn {
+        width: inherit;
+    }
+}
