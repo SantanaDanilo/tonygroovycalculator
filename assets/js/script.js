@@ -9,5 +9,5 @@ btn.addEventListener("click", function () {
 
     var valorPorCento = (100 - desconto.value);
 
-    alert("O valor era de R$" + ((100 * valorProduto) / valorPorCento).toFixed(2);
+    alert("O valor era de R$" + (((100 * valorProduto) / valorPorCento)).toFixed(2);
 })
